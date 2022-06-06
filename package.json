@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
+    "start": "sirv public --single",
     "test": "echo test"
   },
   "devDependencies": {
@@ -17,6 +17,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "axios": "^0.27.2",
+    "sirv-cli": "^0.4.4",
+    "svelte-navigator": "^3.1.5"
   }
 }
